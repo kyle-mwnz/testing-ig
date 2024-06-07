@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: example.fhir.ig
-canonical: https://dlpztbe8nzra.cloudfront.net/testing-ig
+canonical: https://implementation-guides-uat.digital.health.nz/testing-ig
 name: Testing IG
 title: Testing IG
 description: Testing IG
