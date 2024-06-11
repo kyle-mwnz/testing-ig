@@ -2,7 +2,7 @@ Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-cont
 
 Instance: MedicationRequestQuestionnaire
 InstanceOf: Questionnaire
-Description: "Submit a search for Prescribed Medication"
+Description: "Submit a search for Prescribed Medication - update"
 Usage: #definition
 * title = "Search Prescribed Medication"
 * status = #draft
