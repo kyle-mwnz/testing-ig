@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ExampleVs",
+  "id": "example-vs",
+  "title": "Example ValueSet",
+  "url": "https://implementation-guides-uat.digital.health.nz/testing-ig/ValueSet/example-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "https://implementation-guides-uat.digital.health.nz/testing-ig/CodeSystem/example-cs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nz-sharedcare-rheumaticfever-patient",
+  "url": "https://implementation-guides-uat.digital.health.nz/testing-ig/StructureDefinition/nz-sharedcare-rheumaticfever-patient",
+  "version": "1.0.0",
+  "name": "RheumaticFeverPatient",
+  "title": "Rheumatic Fever Patient",
+  "status": "active",
+  "description": "NzPatient-based FHIR resource for representing rheumatic fever patients",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Profiles a New Zealand patient with rheumatic fever (extends NzPatient resource)",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.implicitRules",
+        "path": "Patient.implicitRules",
+        "max": "0"
+      },
+      {
+        "id": "Patient.language",
+        "path": "Patient.language",
+        "max": "0"
+      },
+      {
+        "id": "Patient.name",
+        "path": "Patient.name",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Patient.link.other",
+        "path": "Patient.link.other",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ],
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy",
+                "valueBoolean": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.link.type",
+        "path": "Patient.link.type",
+        "patternCode": "seealso"
+      }
+    ]
+  }
+}

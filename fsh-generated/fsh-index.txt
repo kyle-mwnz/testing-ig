@@ -1,0 +1,6 @@
+Output File                                                    Name                            Type        FSH File                                          Lines
+CapabilityStatement-ExampleCapabilityStatement.json            ExampleCapabilityStatement      Instance    capabilities/capabilitystatement.fsh              1 - 35
+CodeSystem-example-cs.json                                     ExampleCs                       CodeSystem  terminology.fsh                                   1 - 5
+Questionnaire-MedicationRequestQuestionnaire.json              MedicationRequestQuestionnaire  Instance    questionaires/MedicationRequestQuestionnaire.fsh  3 - 22
+StructureDefinition-nz-sharedcare-rheumaticfever-patient.json  RheumaticFeverPatient           Profile     profiles/RheumaticFeverPatient.fsh                3 - 20
+ValueSet-example-vs.json                                       ExampleVs                       ValueSet    terminology.fsh                                   7 - 12

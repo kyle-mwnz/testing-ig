@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ExampleCs",
+  "id": "example-cs",
+  "title": "Example CodeSystem",
+  "url": "https://implementation-guides-uat.digital.health.nz/testing-ig/CodeSystem/example-cs",
+  "concept": [
+    {
+      "code": "examplecode",
+      "display": "examplecode",
+      "definition": "examplecode"
+    }
+  ],
+  "count": 1
+}

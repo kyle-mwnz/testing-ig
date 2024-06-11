@@ -1,0 +1,42 @@
+[
+  {
+    "outputFile": "CapabilityStatement-ExampleCapabilityStatement.json",
+    "fshName": "ExampleCapabilityStatement",
+    "fshType": "Instance",
+    "fshFile": "capabilities/capabilitystatement.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "CodeSystem-example-cs.json",
+    "fshName": "ExampleCs",
+    "fshType": "CodeSystem",
+    "fshFile": "terminology.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "Questionnaire-MedicationRequestQuestionnaire.json",
+    "fshName": "MedicationRequestQuestionnaire",
+    "fshType": "Instance",
+    "fshFile": "questionaires/MedicationRequestQuestionnaire.fsh",
+    "startLine": 3,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-nz-sharedcare-rheumaticfever-patient.json",
+    "fshName": "RheumaticFeverPatient",
+    "fshType": "Profile",
+    "fshFile": "profiles/RheumaticFeverPatient.fsh",
+    "startLine": 3,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-example-vs.json",
+    "fshName": "ExampleVs",
+    "fshType": "ValueSet",
+    "fshFile": "terminology.fsh",
+    "startLine": 7,
+    "endLine": 12
+  }
+]

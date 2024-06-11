@@ -1,0 +1,134 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "example.fhir.ig",
+  "url": "https://implementation-guides-uat.digital.health.nz/testing-ig/ImplementationGuide/example.fhir.ig",
+  "version": "0.0.0",
+  "name": "TestingIG",
+  "title": "Testing IG",
+  "status": "active",
+  "description": "Testing IG",
+  "packageId": "example.fhir.ig",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "fhir.org.nz.ig.base",
+      "uri": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
+      "version": "3.0.0",
+      "id": "fhir_org_nz_ig_base"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/example-cs"
+        },
+        "name": "Example CodeSystem",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/example-vs"
+        },
+        "name": "Example ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/ExampleCapabilityStatement"
+        },
+        "name": "Health New Zealand FHIR Server Example Capability Statement",
+        "description": "Search for Prescribed Medication",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-sharedcare-rheumaticfever-patient"
+        },
+        "name": "Rheumatic Fever Patient",
+        "description": "NzPatient-based FHIR resource for representing rheumatic fever patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/MedicationRequestQuestionnaire"
+        },
+        "name": "Search Prescribed Medication",
+        "description": "Submit a search for Prescribed Medication",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "businessview.html",
+          "title": "Businessview",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "mustsupport.html",
+          "title": "Mustsupport",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "onboarding.html",
+          "title": "Onboarding",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecases.html",
+          "title": "Usecases",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "release"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      },
+      {
+        "code": "bundle-references-resolve",
+        "value": "false"
+      },
+      {
+        "code": "default-contact",
+        "value": "true"
+      },
+      {
+        "code": "apply-version",
+        "value": "false"
+      },
+      {
+        "code": "default-version",
+        "value": "true"
+      },
+      {
+        "code": "suppressed-ids",
+        "value": "$examples"
+      },
+      {
+        "code": "display-warnings",
+        "value": "true"
+      }
+    ]
+  }
+}

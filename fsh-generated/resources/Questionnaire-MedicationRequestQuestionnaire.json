@@ -1,0 +1,31 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "MedicationRequestQuestionnaire",
+  "url": "https://ig.mdr.mwnz.org/MedicationRequestQuestionnaire",
+  "description": "Submit a search for Prescribed Medication",
+  "title": "Search Prescribed Medication",
+  "status": "draft",
+  "identifier": [
+    {
+      "period": {
+        "start": "2023-07-05"
+      },
+      "use": "usual",
+      "value": "MedicationRequestQuestionnaire"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "550e8400-e29b-41d4-a716-446655440000",
+      "text": "Date Last Updated",
+      "type": "date",
+      "required": false
+    },
+    {
+      "linkId": "550e8400-e29b-41d4-a716-446655440001",
+      "text": "Status",
+      "type": "string",
+      "required": false
+    }
+  ]
+}
