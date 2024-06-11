@@ -6,7 +6,7 @@ Description: "Submit a search for Prescribed Medication"
 Usage: #definition
 * title = "Search Prescribed Medication"
 * status = #draft
-* url = "https://ig.mdr.mwnz.org/MedicationRequestQuestionnaire"
+
 * identifier.period.start = "2023-07-05"
 * identifier.use = #usual
 * identifier.value = "MedicationRequestQuestionnaire"
