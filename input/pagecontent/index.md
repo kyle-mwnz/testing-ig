@@ -1,3 +1,3 @@
 ## Example
 
-See `pagecontent/index.md` for source.
+This is a live demo!
