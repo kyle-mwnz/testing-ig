@@ -9,7 +9,7 @@ name: Testing IG
 title: Testing IG
 description: Testing IG
 status: active
-version: 0.0.0
+version: 0.0.1
 fhirVersion: 4.0.1
 copyrightYear: 2024+
 releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
